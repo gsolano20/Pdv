@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script type="text/javascript" src="angular-barcode.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body ng-app="CodigosDeBarras">
+  <div ng-controller="ControladorPrincipal">
+    <label for="mostrarCodigos">Mostrar
+    <input type="checkbox" ng-model="mostrarCodigos" />
+    </label>
+    <button type="button" ng-click="imprimir()">Imprimir</button>
+    <br>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     <angular-barcode ng-show="mostrarCodigos" ng-model="codigoBarras" bc-options="opciones" bc-class="barcode" bc-type="svg"></angular-barcode>
+     
+  </div>
+</body>
+
+</html>

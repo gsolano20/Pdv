@@ -1,0 +1,18 @@
+     Sistema PDV1  
+CedJuridica: 00001  
+     FACTURA # 41   
+Tel:87355029
+Fecha: 2018-09-20
+Hora: 09:09:03
+---------------------
+Cant. Art.  Monto
+---------------------
+1|carburador
+           87.00
+---------------------
+SubTotal  : 87.00
+Descuento  : .00
+I.V  : 13.00
+Total  : 100.00
+Su Pago: 100
+Cambio : 0.00
